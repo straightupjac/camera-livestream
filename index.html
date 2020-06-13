@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Camera Livestream</title>
+  <meta name="description" content="watch what is happening">
+  <meta name="author" content="watch things">
+
+  <link rel="stylesheet" href="app.css">
+  <style>
+    * { font-family:tahoma; font-size:12px; padding:0px;margin:0px;}
+    p { line-height:18px; }
+    div { width:500px; margin-left:auto; margin-right:auto;}
+    #content { padding:5px; background:#ddd; border-radius:5px;
+        overflow-y: scroll; border:1px solid #CCC;
+        margin-top:10px; height: 160px; }
+    #input { border-radius:2px; border:1px solid #ccc;
+        margin-top:10px; padding:5px; width:400px;
+    }
+    #status { width:88px;display:block;float:left;margin-top:15px; }
+  </style>
+</head>
+
+<body >
+    <h1 class= "title">Camera Livestream</h1>
+    <div class= "vid">
+    <img src= "http://192.168.168.101:8081/" width="400" height="250"/> <!--"http://localhost:8081/?action=stream"-->
+    </div>
+    <input id="left_button" type="button" value "Left" >
+  <!-- Scripts required -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.event.drag-2.0.js"></script>
+    <script type="text/javascript" src="scripts.js"></script> -->
+    <script src="./websocket-frontend.js"></script>
+
+  <div class="center-div">
+    <input class= "btn up" type="button" id="btn up" value="Up"/>
+    <input class= "btn down" type="button" id="btn down" value="Down"/>
+    <input class= "btn left" type="button" id="btn left" value="Left"/>
+    <input class= "btn right" type="button" id="btn right" value="Right"/>
+    <input class= "btn stop" type="button" id="btn stop" value="Stop"/>
+  </div>
+</body>

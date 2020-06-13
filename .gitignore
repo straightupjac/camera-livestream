@@ -1,0 +1,8 @@
+node_modules/.
+node_modules/*/*
+node_modules/././.
+*.pyc
+package-lock.json
+# websocket-frontend.js
+# app.css
+# index.html

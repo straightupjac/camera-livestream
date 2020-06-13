@@ -1,0 +1,96 @@
+@import '~antd/dist/antd.css';
+
+
+/*Whole Container*/
+
+
+/*Background*/
+#root {
+  position: relative;
+}
+
+
+
+.title, #description, #listingsTitle {
+    text-align: center;
+    color:#5CDB95;
+  }
+  #description {
+    font-size:4.5vh;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 8vh;
+    margin-top: 5px;
+    margin-bottom: -1px;
+  }
+.vid{
+    align-content: center; 
+    margin: 0 auto; 
+}
+/*buttons*/
+.center-div{
+    align-content: center;
+    margin: 0 auto;  
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #5CDB95;
+    border-color: #5CDB95;
+    background-color: inherit;
+    padding: 7px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    /* display: inline-block; */
+}
+
+/* Green */
+.down {
+    color: green;
+}
+
+.down:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Blue */
+.up {
+    color: dodgerblue;
+}
+
+.up:hover {
+    background: #2196F3;
+    color: white;
+}
+
+/* Orange */
+.right {
+    color: orange;
+}
+
+.right:hover {
+    background: #ff9800;
+    color: white;
+}
+
+/* Red */
+.stop {
+    color: red;
+}
+
+.stop:hover {
+    background: #f44336;
+    color: white;
+}
+
+/* Gray */
+.left {
+    color: black;
+}
+
+.left:hover {
+    background: #e7e7e7;
+}
+

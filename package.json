@@ -1,0 +1,33 @@
+{
+  "name": "camera-livestream",
+  "version": "1.0.0",
+  "description": "watch things work",
+  "main": "websocket-controls.js",
+  "dependencies": {
+    "Buffer": "^0.0.0",
+    "child_process": "^1.0.2",
+    "express": "^4.16.3",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.3.1",
+    "node-pi-motion": "^1.1.3",
+    "websocket": "^1.0.26",
+    "ws": "^5.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "optionalDependencies": {
+    "bufferutil": "^4.0.0",
+    "utf-8-validate": "^5.0.1"
+  }
+}
